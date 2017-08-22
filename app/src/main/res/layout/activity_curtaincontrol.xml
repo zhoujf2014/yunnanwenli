@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/curtain_hint"
+            android:layout_gravity="center"
+            android:src="@drawable/hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/curtain_connet"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/select_connet_bg"
+            android:text="点击连接设备"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+
+        android:background="@drawable/curtain_bg_q">
+
+        <ImageView
+            android:layout_width="265dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:background="#000000"
+            android:scaleType="fitStart"/>
+
+        <ImageView
+            android:id="@+id/curtain_scenery"
+            android:layout_width="265dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/scenery"
+            android:scaleType="fitStart"
+            android:src="@drawable/curtain_bg"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/curtain_left"
+                android:layout_width="143dp"
+                android:layout_height="270dp"
+                android:src="@drawable/curtain_left"/>
+
+            <ImageView
+                android:id="@+id/curtain_right"
+                android:layout_width="143dp"
+                android:layout_height="270dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/curtain_left"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/curtain_oppen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/oppen"
+            android:text="oppen"/>
+
+        <Button
+            android:id="@+id/curtain_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/oppen"
+            android:text="close"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/curtain_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_green"
+        android:text="手动模式"/>
+
+</LinearLayout>

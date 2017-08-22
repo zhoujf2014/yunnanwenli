@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/curtain_hint"
+            android:layout_gravity="center"
+            android:src="@drawable/hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="@drawable/select_connet_bg"
+            android:layout_gravity="center"
+            android:id="@+id/main_connet"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="点击连接设备"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/contaner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_ll"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingTop="18dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ButtonDece"
+                android:text="第一个开关"/>
+
+            <TextView
+                style="@style/ButtonDece"
+                android:text="第二个开关"/>
+
+            <TextView
+                style="@style/ButtonDece"
+                android:text="第三个开关"/>
+
+            <TextView
+                style="@style/ButtonDece"
+                android:text="第四个开关"/>
+
+            <TextView
+                style="@style/ButtonDece"
+                android:text="第五个开关"/>
+
+            <TextView
+                style="@style/ButtonDece"
+                android:text="第六个开关"/>
+
+            <TextView
+                style="@style/ButtonDece"
+                android:text="第七个开关"/>
+
+            <TextView
+                style="@style/ButtonDece"
+                android:text="第八个开关"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="vertical">
+
+            <com.gtafe.yunnanwenli.SwitchButton
+                android:id="@+id/main_switchbutton0"
+                style="@style/SwitchButton"
+                />
+
+            <com.gtafe.yunnanwenli.SwitchButton
+                android:id="@+id/main_switchbutton1"
+                style="@style/SwitchButton"
+                />
+
+
+            <com.gtafe.yunnanwenli.SwitchButton
+                android:id="@+id/main_switchbutton2"
+                style="@style/SwitchButton"
+                />
+
+
+            <com.gtafe.yunnanwenli.SwitchButton
+                android:id="@+id/main_switchbutton3"
+                style="@style/SwitchButton"
+                />
+
+
+            <com.gtafe.yunnanwenli.SwitchButton
+                android:id="@+id/main_switchbutton4"
+                style="@style/SwitchButton"
+                />
+
+
+            <com.gtafe.yunnanwenli.SwitchButton
+                android:id="@+id/main_switchbutton5"
+                style="@style/SwitchButton"
+                />
+
+            <com.gtafe.yunnanwenli.SwitchButton
+                android:id="@+id/main_switchbutton6"
+                style="@style/SwitchButton"
+                />
+
+            <com.gtafe.yunnanwenli.SwitchButton
+                android:id="@+id/main_switchbutton7"
+                style="@style/SwitchButton"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
